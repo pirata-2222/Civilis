@@ -1,15 +1,188 @@
-body{
-  background-color: #faebd7;
-}
-
-hr{
-  border-style: none;
-  border-top-style: dotted;
-  border-color: #6495ed;
-  border-width: 8px;
-  width: 3%;
-}
-
-h1{
+h1 {
   color: #b22222;
+}
+
+
+p {
+  display: inline-block;
+}
+
+
+
+.subtexto {
+  font-size: 2rem;
+  color: #b22222;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-link {
+  color: #b22222;
+}
+
+
+/* SECCIÓN EQUIPO DE TRABAJO */
+.team-images {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.member-bar {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+#top-div {
+  height: 100px;
+}
+
+#descripcion-equipo {
+  height: 60px;
+  width: 600px;
+  line-height: 1.5;
+}
+
+.hr-team {
+  border-top-style: solid;
+  width: 30%;
+  border-width: 2px;
+  border-color: #ffa500;
+}
+
+/* GENERALES */
+.bottom-container {
+  height: 100px;
+  background: rgb(226, 198, 129);
+  background: linear-gradient(0deg, rgba(226, 198, 129, 1) 0%, rgba(255, 188, 63, 0.5217437316723564) 100%);
+}
+
+.footer-link {
+  position: relative;
+  top: 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+#civilis-copyright {
+  position: relative;
+  top: 30px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+}
+
+hr {
+  border-top-style: solid;
+  width: 30%;
+  border-width: 2px;
+  border-color: #ffa500;
+}
+
+body {
+  background-color: #fffaf0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+/* INDEX */
+.index-options {
+  text-decoration: none;
+  color: #00008b;
+}
+
+.index-options:hover {
+  color: white;
+}
+
+/* CONTACTO */
+.contact-box {
+  border-radius: 20px;
+  border: 3px solid #ffa500;
+}
+
+.contact-span {
+  position: relative;
+  right: 120px;
+}
+
+.form-submit-button {
+  background: #00008b;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px #eee;
+  padding: 16px 32px;
+  text-shadow: none;
+  margin-top: 10px;
+}
+
+.form-submit-button:hover {
+  background: #016ABC;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 30px;
+  padding: 16px 32px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+  margin-top: 10px;
+}
+
+/* QUIENES SOMOS */
+
+.mision-vision-row {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.mision-vision-description {
+  text-align: left;
+  width: 550px;
+}
+
+.mision-vision-title {
+  margin: 0;
+}
+
+.mision-image {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+.vision-image {
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+  border-radius: 100%;
+}
+
+#heading {
+  font-size: 5rem;
+  color: #b22222;
+  line-height: 2;
+  margin: 0 auto 0 auto;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 50px;
+}
+
+.profile{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
